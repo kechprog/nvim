@@ -6,5 +6,6 @@ require 'user.lsp'
 require 'user.treesitter'
 require 'user.toggleterm'
 require 'user.lualine'
+--require 'user.tree'
 
 vim.cmd "colorscheme onedark"
