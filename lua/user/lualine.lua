@@ -47,7 +47,7 @@ require('lualine').setup {
     lualine_a = {'mode'},
     lualine_b = {curPath}, -- print a prject directory
     lualine_c = {'branch'}, 
-    lualine_x = {}, 
+    lualine_x = {'filetype'}, 
     lualine_y = {'diagnostics'}, 
     lualine_z = {'progress','location'}, 
   },
